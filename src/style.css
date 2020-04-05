@@ -15,8 +15,8 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 10%;
-  background-color: gray;
-  padding: 1px 10px;
+  background-color: #E28A64;
+  padding: 1px 15px;
 }
 
 footer {
@@ -28,19 +28,45 @@ footer {
   justify-content: space-around;
   height: 10%;
   align-items: center;
-  background: gray;
+  background-color: #BDBDBD;
 }
 
 main {
   position: fixed;
   top: 10%;
   bottom: 10%;
-  width: 100%;
+  left: 0;
+  right: 0;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #EF9670;
 }
 
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1, h2, h3{
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+}
+
+#opening_statement {
+  margin-top: 0;
+}
+
+#quiz_snippit {
+  width: 75%;
+}
+
+#welcome_image {
+  width: 35%;
+}
+
+p {
+  font-family: 'Judson', serif;
+  text-align: center;
+}
+
+#name {
+  font-family: 'Trirong', serif;
 }
