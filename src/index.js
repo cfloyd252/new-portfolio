@@ -5,7 +5,7 @@ function generateWelcomeView(){
   return (
     ` <h1>Welcome</h1>
       <h2 id="opening_statement">My name is Chris and I went to math camp.</h2>
-      <img id='welcome_image' src='src/images/falloutsuit.jpg' alt="Chris sitting and wearing a suit from the game Fallout">`
+      <img id='welcome_image' src={require('src/images/falloutsuit.jpg')} alt="Chris sitting and wearing a suit from the game Fallout">`
   )
 }
 
