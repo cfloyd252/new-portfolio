@@ -1,7 +1,7 @@
 import './style.css';
 import $ from 'jquery';
-import welcomeImg from './images/falloutsuit.jpg'
-import quizSnippit from './images/quiz-snip.png'
+import welcomeImg from '../dist/09781134dab0b8c6c8e6b99bdc8ba514.jpg';
+import quizSnippit from '../dist/530e52cd1dfe9473baceb2bd9ccf7935.png';
 
 function generateWelcomeView(){
   return (
